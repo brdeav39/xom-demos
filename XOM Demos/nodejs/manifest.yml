@@ -1,0 +1,12 @@
+---
+applications:
+
+- name: nodejs-example
+
+  memory: 256M
+
+  instances: 1
+
+  random-route: false
+
+  host: nodejs-xom-XXXXX

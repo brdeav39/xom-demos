@@ -1,0 +1,11 @@
+---
+applications:
+
+- name: DatabaseExample
+  memory: 256M
+
+  instances: 1
+
+  host: dbexample-XXXXX
+
+  path: target/DatabaseExample.war
