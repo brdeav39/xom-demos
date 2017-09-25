@@ -1,0 +1,7 @@
+---
+applications:
+- name: LogExample
+  memory: 256M
+  instances: 1
+  host: logexample-XXXXX
+  path: LogExample.war
