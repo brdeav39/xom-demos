@@ -1,0 +1,12 @@
+---
+applications:
+
+- name: RestExample
+
+  memory: 256M
+
+  instances: 1
+
+  host: restexample-XXXXX
+
+  path: RestExample.war
