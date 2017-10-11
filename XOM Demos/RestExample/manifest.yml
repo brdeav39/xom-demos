@@ -2,11 +2,9 @@
 applications:
 
 - name: RestExample
-
   memory: 256M
-
   instances: 1
-
-  host: restexample-XXXXX
-
   path: target/RestExample.war
+  random-route: true
+  buildpack: java_buildpack
+  

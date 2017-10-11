@@ -2,11 +2,8 @@
 applications:
 
 - name: hello-java
-
   memory: 256M
-
   instances: 1
-
-  host: helloworld-java-XXXXX
-
   path: target/hello-java.war
+  random-route: true
+  buildpack: java_buildpack
