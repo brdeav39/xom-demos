@@ -92,7 +92,7 @@ under the License.
       <id>ExxonMobil</id>
       <active>true</active>
       <protocol>https</protocol>
-      <host>DALPRX01.na.xom.com</host>
+      <host>LHDPRX01.na.xom.com</host>
       <port>8080</port>
       <nonProxyHosts>exxonmobil.com</nonProxyHosts>
     </proxy>
